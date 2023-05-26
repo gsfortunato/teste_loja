@@ -4,7 +4,7 @@
 describe('Must select a product ', () => {
 
     beforeEach(() => {
-        cy.visit('http://lojaebac.ebaconline.art.br/produtos/')
+        cy.visit('produtos/')
     });
 
     it('Select a product', () => {
